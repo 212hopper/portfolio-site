@@ -4,3 +4,9 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "https://hoppermedia.tv/*"
+  to = "https://www.hoppermedia.tv/:splat"
+  status = 301
+  force = true

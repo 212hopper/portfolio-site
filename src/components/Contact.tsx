@@ -245,10 +245,10 @@ export default function Contact() {
         className="max-w-6xl mx-auto mt-32 pt-8 border-t border-[#2a2a2a] flex flex-col sm:flex-row items-center justify-between gap-4"
       >
         <p className="text-[#888888] text-sm">
-          © {new Date().getFullYear()} {personalInfo.name}. All rights reserved.
+          © {new Date().getFullYear()} Hopper Media. All rights reserved.
         </p>
         <p className="text-[#888888] text-sm">
-          Built with Next.js & Tailwind CSS
+          Extra Flavouring via Vibe Code
         </p>
       </motion.div>
     </section>
